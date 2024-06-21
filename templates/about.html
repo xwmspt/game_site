@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avoid the Knifes</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #e31b6d;
+        }
+
+        .buttons {
+            margin: 20px 0;
+        }
+
+        .buttons a {
+            background-color: #e31b6d;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
+
+        .buttons a:hover {
+            background-color: #bf164d;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 24px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        section hr {
+            border: none;
+            border-top: 2px solid #1d1d1d;
+            width: 60px;
+            margin: 10px auto;
+        }
+
+        section p {
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 5px 0;
+            background-color: #1d1d1d;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 5px;
+        }
+
+        .social-icons a img {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Avoid the Knifes</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О игре</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="buttons">
+            <a href="#download">Скачать игру</a>
+            <a href="#play-online">Играть онлайн</a>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>О игре</h2>
+            <hr>
+            <p>В этой игре вы уворачиваетесь от кинжалов, летящих сверху. Цель: набить 5000 очков, после чего игра заканчивается. Если вы попали под кинжал, то игру можно перезапустить. Управление идет только влево и вправо.</p>
+            <div class="gallery">
+                <img src="girl1.jpg" alt="Игровой персонаж 1">
+                <img src="knife1.jpg" alt="Игровой нож 1">
+                <img src="girl2.jpg" alt="Игровой персонаж 2">
+                <img src="knife2.jpg" alt="Игровой нож 2">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Все права защищены автором. Не используйте информацию данного сайта в кармических целях.</p>
+    </footer>
+</body>
+</html>
